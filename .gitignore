@@ -112,5 +112,8 @@
 *.fon
 *.otf
 *.ttf
+*.eot
+*.woff
+*.svg
 
 # End of https://www.gitignore.io/api/font
