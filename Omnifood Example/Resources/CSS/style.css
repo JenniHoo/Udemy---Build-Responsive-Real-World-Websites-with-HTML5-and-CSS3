@@ -276,6 +276,19 @@ header {
 .sticky .logo { display: none; }
 .sticky .logo-black { display: block; }
 
+/* Mobile nav */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon ion-icon {
+    font-size: 200%;
+    color: #fff;
+}
+
 /* ----------------------------------- */
 /* Features */
 /* ----------------------------------- */
@@ -597,4 +610,25 @@ footer p {
     color: #888;
     text-align: center;
     margin-top: 20px;
+}
+
+/* ----------------------------------- */
+/* Animations */
+/* ----------------------------------- */
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.js--wp-4 {
+    animation-duration: 1s;
+}
+
+.js--wp-1.animate__animated,
+.js--wp-2.animate__animated,
+.js--wp-3.animate__animated {
+    opacity: 1;
 }
